@@ -1,0 +1,240 @@
+/* write your styles here */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header p {
+    margin-top: -5px; 
+    
+    background-color: #ed484c;
+    padding: 9px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+mark {
+    font-weight: bold;
+}
+
+
+section, #our-service {
+   margin: 0px;
+    padding: 0px;
+    background-image: url(floral.png);
+    width: 100%;
+    height: 350px;
+    background-color: #f18d97;
+    
+    
+   
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 5px;
+    background-color: #4c4c4c;
+    margin-top: -16px;
+
+   
+}
+
+li {
+    margin: 10px;
+    color: white;
+}
+
+div h1 {
+    
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.para1, .port-para {
+    display: flex;
+    justify-content: center;
+   
+    
+
+}
+.para1 p, .port-para p {
+    border: 1px solid black;
+    width:40%;
+    padding: 20px 0px;
+    padding-left: 20px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.join-now-btn {
+     text-align: center;
+}
+
+.join-now-btn button {
+    padding: 20px 65px;
+    background-color: black;
+    color: #f18d97;
+    font-size: 20px;
+    border: none;
+} 
+
+section  {
+    background-image: url(floral.png);
+    /*margin: 0px;*/
+}
+
+#our-service {
+    background-color: #efece7;
+    margin-top: -20px;
+}
+
+.our-service-p, .portfolio-p, .contact-main-head {
+    text-align: center;
+    padding-top: 1.4em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section-3 {
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.section-3 div i {
+    font-size: 100px;
+}
+
+i:hover {
+    color: #f1778d;
+}
+
+.para2 {
+    width: 65%;
+    padding-left:50px;
+}
+
+#portfolio {
+    background-color: #ddceb4;
+    height: 700px;
+    margin-top: -20px;
+}
+
+.port-para p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.portfolio-images  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+ 
+
+figure img {
+    width: 230px;
+    height: 200px;
+    border-radius: 20px;
+    color: #212121;
+}
+
+
+
+.portfolio-images i {
+    font-size: 30px;
+    border-radius: 30px;
+    
+}
+
+figcaption {
+    position: relative;
+    right: 17%;
+    top: 30px;
+    text-align: center;
+    color: white;
+   display: none;
+   
+}
+
+
+figure:hover figcaption {
+    display: block;
+    background-color: black;
+}
+
+#contact-us {
+    background-color: #afc7c6;
+    height: 200px;
+    margin-top: -20px;
+}
+
+
+#contact-us i {
+    font-size: 40px;
+    position: relative;
+    left: 40%;
+    position: relative;
+    left: 40%;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+a:hover i {
+    background-color: black;
+    color: #fcdea6;
+   
+}
+
+footer {
+    background-image: url(floral.png);
+    background-color: #212121;
+    height: 80px;
+    margin-top: -20px;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+}
+
+
+footer:hover i {
+    color: red;
+}
+
+footer i {
+     margin: 5px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
